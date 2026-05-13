@@ -9,7 +9,7 @@ body {
 }
 
 .person-row {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .person-row label {
@@ -30,7 +30,7 @@ body {
 }
 
 .button-group {
-  margin: 24px 0;
+  margin: 60px 0;
 }
 
 .button-group button {
@@ -48,11 +48,11 @@ body {
 }
 
 .result-title {
-  margin-bottom: 14px;
+  margin-bottom: 30px;
 }
 
 .result-box {
-  margin-top: 20px;
+  margin-top: 50px;
 
   padding: 16px;
 
@@ -61,7 +61,7 @@ body {
 }
 
 .result-item {
-  padding: 10px 0;
+  padding: 14px 0;
 
   border-bottom: 1px solid #f1f1f1;
 }
