@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모노폴리 위치 교란 룰렛</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>모노폴리 위치 교란 룰렛</h1>
+
+    <div id="people-container">
+
+      <div class="person-row">
+        <label>이름:</label>
+        <input type="text" value="A">
+      </div>
+
+      <div class="person-row">
+        <label>이름:</label>
+        <input type="text" value="B">
+      </div>
+
+      <div class="person-row">
+        <label>이름:</label>
+        <input type="text" value="C">
+      </div>
+
+    </div>
+
+    <div class="button-group">
+      <button onclick="addPerson()">항목 추가</button>
+      <button onclick="shufflePositions()">위치 교란 실행</button>
+    </div>
+
+    <div class="result-title">결과:</div>
+
+    <div class="result-box" id="resultBox">
+      <div class="result-item">
+        아직 결과가 없습니다.
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
