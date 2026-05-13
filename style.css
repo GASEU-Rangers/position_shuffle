@@ -5,16 +5,21 @@
 
 body {
   margin: 0;
-  background: #f4f4f4;
+  background: #ffffff;
   color: #111;
+
   display: flex;
   justify-content: center;
-  padding: 60px 20px;
+
+  padding: 20px;
 }
 
 .container {
   width: 100%;
   max-width: 900px;
+
+  transform: scale(0.55);
+  transform-origin: top center;
 }
 
 h1 {
@@ -38,12 +43,18 @@ h1 {
 .person-row input {
   flex: 1;
   height: 60px;
+
   border: 1px solid #ddd;
   border-radius: 14px;
+
   padding: 0 20px;
+
   font-size: 24px;
+
   background: white;
+
   outline: none;
+
   transition: 0.2s;
 }
 
@@ -54,17 +65,25 @@ h1 {
 .button-group {
   display: flex;
   gap: 16px;
+
   margin-top: 24px;
   margin-bottom: 40px;
 }
 
 button {
   border: none;
+
   background: #e7e7e7;
+  color: #000;
+
   padding: 14px 28px;
+
   border-radius: 999px;
+
   font-size: 22px;
+
   cursor: pointer;
+
   transition: 0.2s;
 }
 
@@ -75,19 +94,25 @@ button:hover {
 .result-title {
   font-size: 42px;
   font-weight: 800;
+
   margin-bottom: 24px;
 }
 
 .result-box {
   background: white;
+
   border-radius: 20px;
+
   padding: 24px;
+
   border: 1px solid #e5e5e5;
 }
 
 .result-item {
   font-size: 28px;
+
   padding: 14px 0;
+
   border-bottom: 1px solid #efefef;
 }
 
@@ -101,6 +126,10 @@ button:hover {
 }
 
 @media (max-width: 700px) {
+
+  .container {
+    transform: scale(0.8);
+  }
 
   h1 {
     font-size: 38px;
